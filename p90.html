@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="assets/site.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>中天建設・路德環保 — アスファルト舗装道路工事</title>
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+:root{
+
+  --bg:#f8f9fa;--card:#fff;--accent:#2c4a69;--accent-light:#e6edf3;
+
+  --text:#1e293b;--sub:#64748b;--border:#e2e8f0;--radius:12px;
+
+}
+
+body{font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;
+
+  background:var(--bg);color:var(--text);line-height:1.7;padding:0 0 4rem}
+
+header{background:linear-gradient(160deg,#1a2a3a 0%,#2c4a69 55%,#3a5a78 100%);color:#fff;
+
+  padding:2.5rem 1.2rem 2rem;text-align:center}
+
+header h1{font-size:1.35rem;font-weight:700;margin-bottom:.3rem}
+
+header .subtitle{font-size:.85rem;opacity:.85}
+
+.badge-row{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-top:.8rem}
+
+.badge{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);
+
+  border-radius:20px;padding:.2rem .7rem;font-size:.75rem;color:#fff}
+
+main{max-width:820px;margin:0 auto;padding:1rem 1rem}
+
+section{background:var(--card);border-radius:var(--radius);padding:1.4rem 1.2rem;
+
+  margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+
+section h2{font-size:1.05rem;color:var(--accent);margin-bottom:.8rem;
+
+  border-left:4px solid var(--accent);padding-left:.6rem}
+
+.photo-viewer{background:var(--card);border-radius:var(--radius);overflow:hidden;
+
+  margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+
+.photo-main{position:relative;width:100%;aspect-ratio:16/10;background:#e2e8f0;overflow:hidden}
+
+.photo-main img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .25s ease}
+
+.photo-main img.fade{opacity:0}
+
+.photo-caption{position:absolute;bottom:0;left:0;right:0;padding:.55rem .9rem;
+
+  background:linear-gradient(transparent,rgba(0,0,0,.55));color:#fff;font-size:.82rem}
+
+.photo-thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;padding:.75rem}
+
+.photo-thumb{border:2px solid var(--border);border-radius:8px;overflow:hidden;cursor:pointer;
+
+  aspect-ratio:4/3;background:#e2e8f0;transition:border-color .2s,box-shadow .2s;
+
+  padding:0;font:inherit;color:inherit}
+
+.photo-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+
+.photo-thumb:hover{border-color:var(--accent)}
+
+.photo-thumb.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-light)}
+
+.highlight{background:var(--accent-light);border-radius:8px;padding:1rem 1.2rem;
+
+  margin-top:.6rem;font-size:.88rem;line-height:1.7}
+
+.highlight strong{color:var(--accent)}
+
+.back-link{display:inline-block;margin-top:1.2rem;color:var(--accent);
+
+  text-decoration:none;font-size:.9rem}
+
+.back-link:hover{text-decoration:underline}
+
+footer{text-align:center;color:var(--sub);font-size:.75rem;margin-top:2rem}
+
+@media(max-width:480px){
+
+  header h1{font-size:1.15rem}
+
+  .info-grid{grid-template-columns:5.5rem 1fr;font-size:.85rem}
+
+  .photo-thumbs{gap:.35rem;padding:.5rem}
+
+}
+
+.info-grid{display:grid;grid-template-columns:6.5rem 1fr;gap:.4rem .8rem;font-size:.9rem}
+
+.info-grid dt{color:var(--sub);font-weight:500}
+
+.info-grid dd{font-weight:400}
+
+.scope-list{list-style:none;padding:0}
+
+.scope-list li{position:relative;padding-left:1.2rem;margin-bottom:.4rem;font-size:.9rem}
+
+.scope-list li::before{content:"●";color:var(--accent);position:absolute;left:0;font-size:.65rem;top:.35rem}
+
+.process-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:.4rem;margin-top:.6rem}
+
+.process-step{text-align:center;font-size:.75rem;color:var(--sub)}
+
+.process-step .num{display:block;width:1.6rem;height:1.6rem;line-height:1.6rem;
+
+  border-radius:50%;background:var(--accent);color:#fff;font-size:.7rem;
+
+  margin:0 auto .3rem;font-weight:700}
+
+@media(max-width:480px){
+
+  .process-steps{grid-template-columns:repeat(3,1fr);row-gap:.5rem}
+
+}
+
+.material-table{width:100%;border-collapse:collapse;font-size:.85rem;margin-top:.4rem}
+
+.material-table th,.material-table td{border:1px solid var(--border);padding:.45rem .6rem;text-align:left}
+
+.material-table th{background:var(--accent-light);color:var(--accent);font-weight:600}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a class="brand" href="index.html">陳 穎</a>
+    <a href="index.html">ホーム</a>
+    <a href="career.html">職務経歴</a>
+    <a href="index.html#projects" class="active">施工実績</a>
+    <a href="credentials.html">資格</a>
+    <a href="activities.html">活動</a>
+  </div>
+</nav>
+
+
+
+
+<header>
+
+  <h1>中天建設・路德環保プロジェクト</h1>
+
+  <div class="subtitle">環境保護産業研究開発基地 二期 — アスファルト舗装道路工事</div>
+
+  <div class="badge-row">
+
+    <span class="badge">道路</span>
+
+    <span class="badge">アスファルト舗装</span>
+
+    <span class="badge">中天建設</span>
+
+  </div>
+
+</header>
+
+
+
+<main>
+
+<p class="breadcrumb"><a href="index.html">ホーム</a> › <a href="index.html#projects">施工実績</a> › 路德環保 アスファルト舗装</p>
+
+
+
+
+
+<div class="photo-viewer" id="photoViewer">
+
+  <div class="photo-main">
+
+    <img id="mainPhoto" src="p90/01.png" alt="アスファルト舗装・転圧施工中">
+
+    <div class="photo-caption" id="photoCaption">アスファルト舗装・転圧施工中</div>
+
+  </div>
+
+  <div class="photo-thumbs" id="photoThumbs">
+
+    <button type="button" class="photo-thumb active" data-src="p90/01.png" data-caption="アスファルト舗装・転圧施工中" aria-label="アスファルト舗装・転圧施工中">
+
+      <img src="p90/01.png" alt="">
+
+    </button>
+
+    <button type="button" class="photo-thumb" data-src="p90/02.png" data-caption="路床整備・基層施工中" aria-label="路床整備・基層施工中">
+
+      <img src="p90/02.png" alt="">
+
+    </button>
+
+    <button type="button" class="photo-thumb" data-src="p90/03.png" data-caption="砕石基層舗設" aria-label="砕石基層舗設">
+
+      <img src="p90/03.png" alt="">
+
+    </button>
+
+    <button type="button" class="photo-thumb" data-src="p90/04.png" data-caption="園区道路全体（施工中）" aria-label="園区道路全体（施工中）">
+
+      <img src="p90/04.png" alt="">
+
+    </button>
+
+  </div>
+
+</div>
+
+
+
+<section>
+
+  <h2>プロジェクト概要</h2>
+
+  <dl class="info-grid">
+
+    <dt>工事名称</dt>
+
+    <dd>環境保護産業研究開発基地 二期 道路分包工事（路德環保プロジェクト）</dd>
+
+    <dt>発注者</dt>
+
+    <dd>中天建設集団有限公司（総包）</dd>
+
+    <dt>施主</dt>
+
+    <dd>路德環境科技股份有限公司（環境保護産業研究開発基地）</dd>
+
+    <dt>所在地</dt>
+
+    <dd>湖北省武漢市 東湖新技術開発区 未来科技城<br>科技一路以南・未来一路以西</dd>
+
+    <dt>工期</dt>
+
+    <dd>2024年1月 〜 2024年</dd>
+
+    <dt>施工面積</dt>
+
+    <dd>車道舗装 約 5,355 m²（基層・路床含む約 6,500 m²）</dd>
+
+    <dt>工事種別</dt>
+
+    <dd>園区道路 アスファルト舗装（多層構造）</dd>
+
+  </dl>
+
+</section>
+
+
+
+<section>
+
+  <h2>道路構造（施工仕様）</h2>
+
+  <table class="material-table">
+
+    <thead>
+
+      <tr><th>層</th><th>仕様</th></tr>
+
+    </thead>
+
+    <tbody>
+
+      <tr><td>路床</td><td>転圧・整地</td></tr>
+
+      <tr><td>垫层</td><td>15cm 4% セメント安定砕石</td></tr>
+
+      <tr><td>下基層</td><td>20cm 6% セメント安定砕石</td></tr>
+
+      <tr><td>上基層</td><td>20cm C30 コンクリート（曲げ強度 ≧ 4.5 MPa）</td></tr>
+
+      <tr><td>粘層</td><td>アスファルトタックコート</td></tr>
+
+      <tr><td>中間層</td><td>4.5cm AC-16 中粒式アスファルト</td></tr>
+
+      <tr><td>表面層</td><td>3.5cm AC-13 細粒式アスファルト</td></tr>
+
+    </tbody>
+
+  </table>
+
+</section>
+
+
+
+<section>
+
+  <h2>担当範囲</h2>
+
+  <ul class="scope-list">
+
+    <li>道路基層材料（セメント安定砕石・C30道路コンクリート）の調達・納入調整</li>
+
+    <li>材料メーカー・協力会社との連絡、納品確認、対账管理</li>
+
+    <li>中天建設現場担当者との工程・書類・人員資料の調整</li>
+
+    <li>路床整備から舗装・転圧までの現場進捗確認・補助</li>
+
+  </ul>
+
+  <div class="process-steps">
+
+    <div class="process-step"><span class="num">1</span>路床<br>整備</div>
+
+    <div class="process-step"><span class="num">2</span>水穏<br>砕石</div>
+
+    <div class="process-step"><span class="num">3</span>C30<br>基層</div>
+
+    <div class="process-step"><span class="num">4</span>舗装<br>施工</div>
+
+    <div class="process-step"><span class="num">5</span>転圧<br>仕上げ</div>
+
+  </div>
+
+</section>
+
+
+
+<section>
+
+  <h2>プロジェクトの特徴</h2>
+
+  <div class="highlight">
+
+    <p>本プロジェクトは、<strong>路德環境科技</strong>の環境保護産業研究開発基地（二期）における園区道路工事です。総包は<strong>中天建設</strong>が担当し、路床からアスファルト表面層まで多層構造の舗装道路を施工しました。</p>
+
+    <p style="margin-top:.5rem"><strong>27号（金科城一期）・66号（金科城二期）</strong>に続く中天建設との協業案件として、材料供給・原価管理・現場調整を担当。2024年1月の舗装・転圧施工から、監督検査に向けた書類・人員調整まで一貫して関与しました。</p>
+
+  </div>
+
+</section>
+
+
+
+<section>
+
+  <h2>面接で話せるポイント</h2>
+
+  <ul class="scope-list">
+
+    <li>同一総包（<strong>中天建設</strong>）との継続協業 — 住宅（27・66）に加え<strong>道路・産業施設</strong>分野の実績</li>
+
+    <li>多層道路構造（路床→水穏砕石→コンクリート基層→AC-16/AC-13）の<strong>材料供給・納入管理</strong>経験</li>
+
+    <li>監督検査・書類提出に向けた<strong>社内外調整</strong>（資格・人員・社保資料等）の実務経験</li>
+
+  </ul>
+
+</section>
+
+
+
+<a class="back-link" href="index.html">← 施工実績一覧に戻る</a>
+
+
+
+</main>
+
+
+
+<footer>
+
+  就活プロフィール — ローカル版 · 2026
+
+</footer>
+
+
+
+<script>
+
+(function () {
+
+  var main = document.getElementById('mainPhoto');
+
+  var caption = document.getElementById('photoCaption');
+
+  var thumbs = document.querySelectorAll('.photo-thumb');
+
+
+
+  thumbs.forEach(function (btn) {
+
+    btn.addEventListener('click', function () {
+
+      var src = btn.getAttribute('data-src');
+
+      var text = btn.getAttribute('data-caption');
+
+      if (main.getAttribute('src') === src) return;
+
+
+
+      main.classList.add('fade');
+
+      setTimeout(function () {
+
+        main.src = src;
+
+        main.alt = text;
+
+        caption.textContent = text;
+
+        main.onload = function () {
+
+          main.classList.remove('fade');
+
+          main.onload = null;
+
+        };
+
+      }, 150);
+
+
+
+      thumbs.forEach(function (t) { t.classList.remove('active'); });
+
+      btn.classList.add('active');
+
+    });
+
+  });
+
+})();
+
+</script>
+
+
+
+</body>
+
+</html>
+

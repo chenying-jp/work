@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="assets/site.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>硚口区漢江湾全民フィットネスセンター — 発泡コンクリート床保温工事</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f8f9fa;--card:#fff;--accent:#2c4a69;--accent-light:#e6edf3;
+  --text:#1e293b;--sub:#64748b;--border:#e2e8f0;--radius:12px;
+}
+body{font-family:"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.7;padding:0 0 4rem}
+header{background:linear-gradient(160deg,#1a2a3a 0%,#2c4a69 55%,#3a5a78 100%);color:#fff;
+  padding:2.5rem 1.2rem 2rem;text-align:center}
+header h1{font-size:1.35rem;font-weight:700;margin-bottom:.3rem}
+header .subtitle{font-size:.85rem;opacity:.85}
+.badge-row{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-top:.8rem}
+.badge{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);
+  border-radius:20px;padding:.2rem .7rem;font-size:.75rem;color:#fff}
+main{max-width:820px;margin:0 auto;padding:1rem 1rem}
+section{background:var(--card);border-radius:var(--radius);padding:1.4rem 1.2rem;
+  margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+section h2{font-size:1.05rem;color:var(--accent);margin-bottom:.8rem;
+  border-left:4px solid var(--accent);padding-left:.6rem}
+.photo-viewer{background:var(--card);border-radius:var(--radius);overflow:hidden;
+  margin-bottom:1rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.photo-main{position:relative;width:100%;aspect-ratio:16/10;background:#e2e8f0;overflow:hidden}
+.photo-main img{width:100%;height:100%;object-fit:cover;display:block;transition:opacity .25s ease}
+.photo-main img.fade{opacity:0}
+.photo-caption{position:absolute;bottom:0;left:0;right:0;padding:.55rem .9rem;
+  background:linear-gradient(transparent,rgba(0,0,0,.55));color:#fff;font-size:.82rem}
+.photo-thumbs{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;padding:.75rem}
+.photo-thumb{border:2px solid var(--border);border-radius:8px;overflow:hidden;cursor:pointer;
+  aspect-ratio:4/3;background:#e2e8f0;transition:border-color .2s,box-shadow .2s;
+  padding:0;font:inherit;color:inherit}
+.photo-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-thumb:hover{border-color:var(--accent)}
+.photo-thumb.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-light)}
+.highlight{background:var(--accent-light);border-radius:8px;padding:1rem 1.2rem;
+  margin-top:.6rem;font-size:.88rem;line-height:1.7}
+.highlight strong{color:var(--accent)}
+.back-link{display:inline-block;margin-top:1.2rem;color:var(--accent);
+  text-decoration:none;font-size:.9rem}
+.back-link:hover{text-decoration:underline}
+footer{text-align:center;color:var(--sub);font-size:.75rem;margin-top:2rem}
+@media(max-width:480px){
+  header h1{font-size:1.15rem}
+  .info-grid{grid-template-columns:5.5rem 1fr;font-size:.85rem}
+  .photo-thumbs{gap:.35rem;padding:.5rem}
+}
+.info-grid{display:grid;grid-template-columns:6.5rem 1fr;gap:.4rem .8rem;font-size:.9rem}
+.info-grid dt{color:var(--sub);font-weight:500}
+.info-grid dd{font-weight:400}
+.scope-list{list-style:none;padding:0}
+.scope-list li{position:relative;padding-left:1.2rem;margin-bottom:.4rem;font-size:.9rem}
+.scope-list li::before{content:"●";color:var(--accent);position:absolute;left:0;font-size:.65rem;top:.35rem}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav-inner">
+    <a class="brand" href="index.html">陳 穎</a>
+    <a href="index.html">ホーム</a>
+    <a href="career.html">職務経歴</a>
+    <a href="index.html#projects" class="active">施工実績</a>
+    <a href="credentials.html">資格</a>
+    <a href="activities.html">活動</a>
+  </div>
+</nav>
+
+
+<header>
+  <h1>硚口区 漢江湾全民フィットネスセンター</h1>
+  <div class="subtitle">発泡コンクリート床保温工事</div>
+  <div class="badge-row">
+    <span class="badge">公共建築</span>
+    <span class="badge">発泡コンクリート</span>
+    <span class="badge">葛洲壩グループ</span>
+  </div>
+</header>
+
+<main>
+
+<p class="breadcrumb"><a href="index.html">ホーム</a> › <a href="index.html#projects">施工実績</a> › 硚口区 漢江湾全民フィットネスセンター</p>
+
+
+
+<div class="photo-viewer" id="photoViewer">
+  <div class="photo-main">
+    <img id="mainPhoto" src="p88/01.png" alt="建物外観">
+    <div class="photo-caption" id="photoCaption">建物外観</div>
+  </div>
+  <div class="photo-thumbs" id="photoThumbs">
+    <button type="button" class="photo-thumb active" data-src="p88/01.png" data-caption="建物外観" aria-label="建物外観">
+      <img src="p88/01.png" alt="">
+    </button>
+    <button type="button" class="photo-thumb" data-src="p88/02.png" data-caption="施工現場" aria-label="施工現場">
+      <img src="p88/02.png" alt="">
+    </button>
+    <button type="button" class="photo-thumb" data-src="p88/03.jpg" data-caption="竣工外観" aria-label="竣工外観">
+      <img src="p88/03.jpg" alt="">
+    </button>
+    <button type="button" class="photo-thumb" data-src="p88/04.jpg" data-caption="内部施設" aria-label="内部施設">
+      <img src="p88/04.jpg" alt="">
+    </button>
+  </div>
+</div>
+
+<section>
+  <h2>プロジェクト概要</h2>
+  <dl class="info-grid">
+    <dt>工事名称</dt>
+    <dd>硚口区漢江湾全民フィットネスセンター 発泡コンクリート調達・施工</dd>
+    <dt>発注者</dt>
+    <dd>中国葛洲壩集団股份有限公司（中国能建グループ）</dd>
+    <dt>所在地</dt>
+    <dd>湖北省武漢市硚口区古田街道</dd>
+    <dt>工期</dt>
+    <dd>2022年10月着工 〜 2025年12月竣工検査合格</dd>
+    <dt>延床面積</dt>
+    <dd>約 25,007 m²（地上 10,721 m² ＋ 地下 14,286 m²）</dd>
+    <dt>敷地面積</dt>
+    <dd>約 11,068 m²</dd>
+    <dt>総投資額</dt>
+    <dd>約 2.25 億元</dd>
+    <dt>工事種別</dt>
+    <dd>発泡コンクリート床保温工事</dd>
+    <dt>適用規格</dt>
+    <dd>JG/T 266-2011《泡沫混凝土》</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>担当範囲</h2>
+  <ul class="scope-list">
+    <li>発泡コンクリート材料の調達・品質管理</li>
+    <li>入札対応（資格審査・技術提案・価格交渉）</li>
+    <li>施工計画の調整、現場との工程すり合わせ</li>
+    <li>月次計量・精算の管理、検収対応</li>
+    <li>安全管理書類の整備、JG/T 266 規格適合の確認</li>
+  </ul>
+</section>
+
+<section>
+  <h2>プロジェクトの特徴</h2>
+  <div class="highlight">
+    <p>本プロジェクトは、武漢市硚口区の<strong>公共スポーツ施設</strong>として、球技場・フィットネスエリア・プール等を備えた複合施設です。</p>
+    <p style="margin-top:.5rem">施工にあたり、<strong>BIM技術</strong>・スマートサイト管理が導入され、プレキャスト合成スラブ・大体積鉄骨コンクリート・カーテンウォールユニットなどの先進工法が採用されました。建築エネルギー消費を<strong>30%以上削減</strong>し、グリーン・低炭素建築の理念を実現しています。</p>
+    <p style="margin-top:.5rem">2025年12月に竣工検査に合格し、周辺住民向けの総合フィットネス拠点として運営開始予定です。</p>
+  </div>
+</section>
+
+<section>
+  <h2>面接で話せるポイント</h2>
+  <ul class="scope-list">
+    <li><strong>入札～契約交渉</strong>の全プロセスを経験（資格審査→技術提案→価格交渉→契約締結）</li>
+    <li><strong>大手ゼネコン</strong>（葛洲壩グループ）との協業を通じた品質・安全基準への対応力</li>
+    <li>国家規格 JG/T 266 に基づく<strong>材料品質管理</strong>と検収プロセスの実務経験</li>
+  </ul>
+</section>
+
+<a class="back-link" href="index.html">← 施工実績一覧に戻る</a>
+
+</main>
+
+<footer>
+  就活プロフィール — ローカル版 · 2026
+</footer>
+
+<script>
+(function () {
+  var main = document.getElementById('mainPhoto');
+  var caption = document.getElementById('photoCaption');
+  var thumbs = document.querySelectorAll('.photo-thumb');
+
+  thumbs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var src = btn.getAttribute('data-src');
+      var text = btn.getAttribute('data-caption');
+      if (main.getAttribute('src') === src) return;
+
+      main.classList.add('fade');
+      setTimeout(function () {
+        main.src = src;
+        main.alt = text;
+        caption.textContent = text;
+        main.onload = function () {
+          main.classList.remove('fade');
+          main.onload = null;
+        };
+      }, 150);
+
+      thumbs.forEach(function (t) { t.classList.remove('active'); });
+      btn.classList.add('active');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

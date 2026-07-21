@@ -1,0 +1,122 @@
+# 就活 personal site — 公开内容数据（事实源の写し）
+# updated: 2026-07-21
+# 事实源: resume-master-ja.md, experience-bank.md, credentials/_registry.yaml
+
+profile:
+  name_ja: 陳 穎
+  name_reading: ちん えい
+  school: 日本工学院八王子専門学校 土木造園科
+  graduation: 2027年3月卒業見込み
+  target_role: 土木施工管理職
+  site_root: portfolio/index.html
+
+career:
+  - id: education-whut
+    label: 学歴
+    period: 2000年9月 〜 2004年7月
+    companies:
+      - 武漢理工大学 土木工程（本科・成人高等教育脱産）
+    page: credentials.html
+  - id: career-01
+    label: 経歴①
+    period: 2004年9月 〜 2016年7月
+    companies:
+      - 湖北省漢川市永昌工程造価コンサルティング有限責任会社
+    page: career-01.html
+  - id: career-02
+    label: 経歴②
+    period: 2016年9月 〜 2024年9月
+    companies:
+      - 湖北省武漢匯海騰達環保節能科技有限公司
+      - 湖北省武漢星辰建築工程有限公司
+    page: career-02.html
+
+credentials_jp:
+  - name: 2級土木施工管理技士補
+    date: 2025年10月 第一次検定合格
+    image: assets/credentials/jp/doboku.jpg
+  - name: 測量士補
+    date: 2026年5月試験合格
+    image: assets/credentials/jp/sokuryoshi.jpg
+  - name: 普通自動車免許
+    date: 2025年4月取得
+    image: assets/credentials/jp/license.jpg
+  - name: 小型移動式クレーン運転技能講習
+    date: 2025年9月7日 修了（5t未満）
+    image: assets/credentials/jp/crane-mobile.jpg
+  - name: 玉掛け技能講習
+    date: 2026年3月8日 修了
+    image: assets/credentials/jp/crane-sling.jpg
+  - name: 車両系建設機械運転技能講習（整地・掘削等）
+    date: 2026年4月10日 修了
+    image: assets/credentials/jp/excavator.jpg
+
+credentials_cn:
+  - name: 二級建築師（二级建造师）
+    date: 2023年6月4日 批准 · 建築工程
+    image: assets/credentials/cn/erjian.jpg
+  - name: 助理人力资源管理师
+    date: 2004年8月16日（三級）
+    image: assets/credentials/cn/hr-assistant.jpg
+  - name: 机动车驾驶证（C1）
+    date: 初次領証日 2009年10月22日 · 准駕車型 C1
+    image: assets/credentials/cn/license-cn.jpg
+  - name: 武漢理工大学 卒業証明書
+    date: 2004年7月 · 土木工程 · 本科
+    image: assets/credentials/cn/diploma.jpg
+
+activities:
+  - id: takao
+    name: 高尾山観光案内ボランティア
+    period: 2025年4月頃
+    note: 広報はちおうじ 2025年4月15日号に掲載
+    kouhou_pdf: https://www.city.hachioji.tokyo.jp/contents/kouhou/006/p034907_d/fil/250415.pdf
+    image: assets/volunteer/2025-04_高尾山案内_登报照片.jpg
+  - id: matsuri
+    name: 八王子まつり · 神輿担ぎボランティア
+    period: 2025年7月
+    image: assets/volunteer/2025-08-04_（台湾・高雄市学生受入れボランティア）募集チラシ01.jpg
+  - id: taiwan
+    name: 台湾・高雄市学生受入れボランティア
+    period: 2025年8月
+    image: assets/volunteer/2025-08-04_（台湾・高雄市学生受入れボランティア）募集チラシ02.jpg
+  - id: peace
+    name: 第七回 多文化共生 平和写真展 ボランティア
+    period: 2026年8月2日 8:30〜（参加予定 · 開場10:30〜16:00）
+    venue: 東京たま未来メッセ（八王子市）
+    image: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
+
+projects:
+  - id: p27
+    category: 全軽コンクリート
+    page: p27.html
+  - id: p9
+    category: 全軽コンクリート
+    page: p9.html
+  - id: p88
+    category: 発泡コンクリート
+    page: p88.html
+  - id: p82
+    category: 発泡コンクリート
+    page: p82.html
+  - id: p81
+    category: モルタル
+    page: p81.html
+  - id: p76
+    category: モルタル
+    page: p76.html
+  - id: p43
+    category: 陶粒材料供給
+    page: p43.html
+  - id: p66
+    category: 耐磨地坪
+    page: p66.html
+  - id: p32
+    category: 交通施設
+    page: p32.html
+  - id: p90
+    category: アスファルト舗装
+    page: p90.html
+  - id: p16
+    category: 外壁塗装
+    page: p16.html
