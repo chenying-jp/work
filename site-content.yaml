@@ -82,9 +82,15 @@ activities:
     image: assets/volunteer/2025-08-04_（台湾・高雄市学生受入れボランティア）募集チラシ02.jpg
   - id: peace
     name: 第七回 多文化共生 平和写真展 ボランティア
-    period: 2026年8月2日 8:30〜（参加予定 · 開場10:30〜16:00）
+    period: 2026年8月2日（日）8:30〜14:15（参加予定）
     venue: 東京たま未来メッセ（八王子市）
     image: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
+  - id: fuji
+    name: 富士山登山
+    period: 2026年8月16日（参加予定 · 山小屋予約済み）
+    note: 計画・安全意識 · 高尾山経験からの継続
+    image: assets/volunteer/2025-02_河口湖_富士山.jpg
+    photo_credit: 2025年2月 河口湖にて撮影
 
 projects:
   - id: p27
@@ -102,6 +108,10 @@ projects:
   - id: p81
     category: モルタル
     page: p81.html
+  - id: p32m
+    category: モルタル
+    page: p32m.html
+    note: 洪山三小 干混モルタル・筒倉供給 · 同校 水磨石/金剛砂/区画線あり
   - id: p76
     category: モルタル
     page: p76.html
@@ -111,6 +121,14 @@ projects:
   - id: p66
     category: 耐磨地坪
     page: p66.html
+  - id: p32t
+    category: 水磨石
+    page: p32t.html
+    note: 洪山三小 楼地面水磨石 · 同校の区画線は p32 · 金剛砂は p32h
+  - id: p32h
+    category: 金剛砂耐磨地坪
+    page: p32h.html
+    note: 洪山三小 金剛砂耐磨地坪 · 契約2019.5 · 同校水磨石/区画線あり
   - id: p32
     category: 交通施設
     page: p32.html

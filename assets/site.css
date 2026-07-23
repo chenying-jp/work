@@ -134,7 +134,10 @@ section.block h3{font-size:.95rem;margin:.8rem 0 .4rem;color:var(--text)}
 .cred-card .cred-note{font-size:.75rem;color:var(--sub);margin-top:.3rem}
 .act-card{display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;
   border:1px solid var(--border);border-radius:10px;padding:.85rem;margin-bottom:.75rem;background:#fff}
-.act-card img{width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;background:#e2e8f0}
+.act-card img,.act-card .act-ph{width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;background:#e2e8f0}
+.act-card .act-ph{display:flex;align-items:center;justify-content:center;text-align:center;
+  background:linear-gradient(160deg,#1a2a3a 0%,#2c4a69 55%,#3a5a78 100%);color:#fff;
+  font-size:.78rem;font-weight:700;letter-spacing:.04em;line-height:1.35;padding:.5rem}
 .act-card .act-title{font-size:.92rem;font-weight:700;margin-bottom:.2rem}
 .act-card .act-period{font-size:.78rem;color:var(--sub);margin-bottom:.35rem}
 .empty-msg{display:none;text-align:center;color:var(--sub);padding:2rem 1rem;font-size:.9rem}
