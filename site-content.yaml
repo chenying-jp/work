@@ -85,6 +85,12 @@ activities:
     period: 2026年8月2日（日）8:30〜14:15（参加予定）
     venue: 東京たま未来メッセ（八王子市）
     image: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
+  - id: taiwan-2026
+    name: 台湾・高雄市学生受入れボランティア（八王子まつり）
+    period: 2026年8月7日（金）〜9日（日）（参加予定）
+    note: 中日通訳 · 引率 · 会場設営 · 八王子市助っ人留学生
+    image: assets/volunteer/2026-08-07_台湾・高雄市学生受入れボランティア_募集チラシ.jpg
+    flyer_pdf: assets/volunteer/2026-08-07_台湾・高雄市学生受入れボランティア_募集チラシ.pdf
   - id: fuji
     name: 富士山登山
     period: 2026年8月16日（参加予定 · 山小屋予約済み）
