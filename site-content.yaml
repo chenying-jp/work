@@ -1,5 +1,5 @@
 # 就活 personal site — 公开内容数据（事实源の写し）
-# updated: 2026-07-21
+# updated: 2026-08-02
 # 事实源: resume-master-ja.md, experience-bank.md, credentials/_registry.yaml
 
 profile:
@@ -66,6 +66,14 @@ credentials_cn:
     image: assets/credentials/cn/diploma.jpg
 
 activities:
+  - id: hanakagami
+    name: 2027横浜国際園芸博覧会「花鏡」出展準備
+    period: 2026年〜2027年
+    venue: GREEN×EXPO 2027 · 横浜
+    note: 施工管理サポート · 広報 · Instagram @posytina · 写真8/23差替予定
+    image: placeholder
+    instagram: https://www.instagram.com/posytina/
+    instagram_qr: assets/social/instagram-posytina-qr.png
   - id: takao
     name: 高尾山観光案内ボランティア
     period: 2025年4月頃
@@ -82,9 +90,11 @@ activities:
     image: assets/volunteer/2025-08-04_（台湾・高雄市学生受入れボランティア）募集チラシ02.jpg
   - id: peace
     name: 第七回 多文化共生 平和写真展 ボランティア
-    period: 2026年8月2日（日）8:30〜14:15（参加予定）
+    period: 2026年8月2日（日）8:30〜14:15 · 参加済み
     venue: 東京たま未来メッセ（八王子市）
-    image: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
+    note: 設営支援 · やさしい日本語ブース · 多国籍ボランティア協働
+    image: assets/volunteer/2026-08-02_平和写真展_现场01.jpg
+    flyer: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
   - id: taiwan-2026
     name: 台湾・高雄市学生受入れボランティア（八王子まつり）
     period: 2026年8月7日（金）〜9日（日）（参加予定）
