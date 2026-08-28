@@ -140,6 +140,11 @@ section.block h3{font-size:.95rem;margin:.8rem 0 .4rem;color:var(--text)}
   font-size:.78rem;font-weight:700;letter-spacing:.04em;line-height:1.35;padding:.5rem}
 .act-card .act-title{font-size:.92rem;font-weight:700;margin-bottom:.2rem}
 .act-card .act-period{font-size:.78rem;color:var(--sub);margin-bottom:.35rem}
+.act-ig-row{display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap;margin-top:.75rem;padding-top:.75rem;border-top:1px solid var(--border)}
+.act-ig-row img{width:112px;height:112px;border-radius:8px;border:1px solid var(--border);object-fit:cover;background:#fff}
+.act-ig-row .act-ig-meta{font-size:.78rem;color:var(--sub);line-height:1.55;flex:1;min-width:10rem}
+.act-ig-row .act-ig-meta a{color:var(--accent);text-decoration:none;font-weight:600}
+.act-ig-row .act-ig-meta a:hover{text-decoration:underline}
 .empty-msg{display:none;text-align:center;color:var(--sub);padding:2rem 1rem;font-size:.9rem}
 .empty-msg.show{display:block}
 .back-link{display:inline-block;margin-top:.5rem;color:var(--accent);text-decoration:none;font-size:.9rem}

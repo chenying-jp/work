@@ -1,5 +1,5 @@
 # 就活 personal site — 公开内容数据（事实源の写し）
-# updated: 2026-07-21
+# updated: 2026-08-28
 # 事实源: resume-master-ja.md, experience-bank.md, credentials/_registry.yaml
 
 profile:
@@ -38,6 +38,10 @@ credentials_jp:
   - name: 測量士補
     date: 2026年5月試験合格
     image: assets/credentials/jp/sokuryoshi.jpg
+  - name: 日本語能力試験 N2級
+    date: 2026年7月試験合格（総合96点）
+    image: assets/credentials/jp/jlpt-n2.png
+    certificate_id: N2A517649J
   - name: 普通自動車免許
     date: 2025年4月取得
     image: assets/credentials/jp/license.jpg
@@ -66,6 +70,14 @@ credentials_cn:
     image: assets/credentials/cn/diploma.jpg
 
 activities:
+  - id: hanakagami
+    name: 2027横浜国際園芸博覧会「花鏡」出展準備
+    period: 2026年〜2027年
+    venue: GREEN×EXPO 2027 · 横浜
+    note: 施工管理サポート · 広報 · Instagram @posytina · 写真8/23差替予定
+    image: placeholder
+    instagram: https://www.instagram.com/posytina/
+    instagram_qr: assets/social/instagram-posytina-qr.png
   - id: takao
     name: 高尾山観光案内ボランティア
     period: 2025年4月頃
@@ -82,21 +94,17 @@ activities:
     image: assets/volunteer/2025-08-04_（台湾・高雄市学生受入れボランティア）募集チラシ02.jpg
   - id: peace
     name: 第七回 多文化共生 平和写真展 ボランティア
-    period: 2026年8月2日（日）8:30〜14:15（参加予定）
+    period: 2026年8月2日（日）8:30〜14:15 · 参加済み
     venue: 東京たま未来メッセ（八王子市）
-    image: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
+    note: 設営支援 · やさしい日本語ブース · 多国籍ボランティア協働
+    image: assets/volunteer/2026-08-02_平和写真展_现场01.jpg
+    flyer: assets/volunteer/2026-08-02_平和写真展_チラシおもて.jpg
   - id: taiwan-2026
-    name: 台湾・高雄市学生受入れボランティア（八王子まつり）
-    period: 2026年8月7日（金）〜9日（日）（参加予定）
-    note: 中日通訳 · 引率 · 会場設営 · 八王子市助っ人留学生
-    image: assets/volunteer/2026-08-07_台湾・高雄市学生受入れボランティア_募集チラシ.jpg
-    flyer_pdf: assets/volunteer/2026-08-07_台湾・高雄市学生受入れボランティア_募集チラシ.pdf
-  - id: fuji
-    name: 富士山登山
-    period: 2026年8月16日（参加予定 · 山小屋予約済み）
-    note: 計画・安全意識 · 高尾山経験からの継続
-    image: assets/volunteer/2025-02_河口湖_富士山.jpg
-    photo_credit: 2025年2月 河口湖にて撮影
+    name: 八王子まつり · 台湾・高雄パフォーマンス団受入れボランティア
+    period: 2026年8月7日（木）〜9日（土）· 3日間 · 参加済み
+    note: 高尾山案内 · 中日通訳 · 引率 · 会場設営 · 八王子市助っ人留学生
+    image: assets/volunteer/2026-08-08_台湾高雄団_现场02.jpg
+    image_alt: assets/volunteer/2026-08-07_台湾高雄団_高尾山01.jpg
 
 projects:
   - id: p27
