@@ -39,9 +39,8 @@ credentials_jp:
     date: 2026年5月試験合格
     image: assets/credentials/jp/sokuryoshi.jpg
   - name: 日本語能力試験 N2級
-    date: 2026年7月試験合格（総合96点）
+    date: 2026年7月試験合格
     image: assets/credentials/jp/jlpt-n2.png
-    certificate_id: N2A517649J
   - name: 普通自動車免許
     date: 2025年4月取得
     image: assets/credentials/jp/license.jpg
