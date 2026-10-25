@@ -104,6 +104,13 @@ activities:
     note: 高尾山案内 · 中日通訳 · 引率 · 会場設営 · 八王子市助っ人留学生
     image: assets/volunteer/2026-08-08_台湾高雄団_现场02.jpg
     image_alt: assets/volunteer/2026-08-07_台湾高雄団_高尾山01.jpg
+  - id: shogai-gaku-2026
+    name: 助っ人活動 · 第22回生涯学習フェスティバル
+    period: 2026年10月24日（土）· 参加済み
+    venue: クリエイトホール（八王子市東町5-6）
+    note: 1階景品交換 · シールラリー7枚確認 · 抽選くじ案内 · 子ども向け接客
+    event_url: https://www.city.hachioji.tokyo.jp/kurashi/kyoiku/004/001/event/p004869.html
+    image: assets/volunteer/2026-10-24_生涯学習フェスティバル_现场01.jpg
 
 projects:
   - id: p27
